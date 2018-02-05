@@ -1,5 +1,4 @@
 import connection from './connection';
 
-export default {
-  connection
-};
+export const connection = connection;
+
