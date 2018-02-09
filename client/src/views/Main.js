@@ -4,31 +4,53 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { get } from '../util/http';
-
+import { get, post } from '../util/http';
+import { fetchToBeQA } from './../actions';
 class Main extends Component {
   state = {
-    loading: true
+    loading: true,
+    isFetchDone: false
   }
   componentDidMount = () => {
     // get()
-    console.log(this.props)
     this.intialize();
   }
 
   componentWillReceiveProps = (nextProps) => {
-    console.log(nextProps)
+    if(nextProps.reduxState.to_be_qa.length > 0) this.extinguish(nextProps.reduxState.to_be_qa)
   }
 
   // initialize QA Process 
   intialize = async () => {
+
     let data = await get("robots").then(result => result.data).catch((error) => { console.log(error); return undefined });
-    this.setState({ loading: false });
+    
+
+    // step 1 fetch
     if(data !== undefined){
-      console.log(data)
+      this.props.fetchToBeQA(data);
+      this.setState({ isFetchDone: true });
     } else {
-      console.log("failed")
     }
+  }
+
+  // iterate through all data then check if extinguisahble
+  extinguish = async (data) => {
+    // let to_be_qa = await post('robots/123/extinguish').then(result => result.data).catch((error) => { console.log(error); return undefined });
+    data.map( async (item) => {
+      try{
+        await post(`robots/${item.id}/extinguish`).then(result => result.data).catch((error) => { console.log(error); return undefined })
+        
+      } catch (error) {
+        console.log("error", error)
+      }
+    });
+    let newData = await get("robots").then(result => result.data).catch((error) => { console.log(error); return undefined });
+    this.recycle(newData);
+  }
+
+  recycle = (data) => {
+    console.log(data)
   }
   render() {
     return (
@@ -46,8 +68,15 @@ class Main extends Component {
 
 const mapStateToProps = state => {
   return {
-    state: state
+    reduxState: state
   }
 }
 
-export default connect(mapStateToProps)(Main);
+const mapDispatchToProps = dispatch => {
+  return {
+    fetchToBeQA: data => dispatch(fetchToBeQA(data))
+  }
+}
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(Main);

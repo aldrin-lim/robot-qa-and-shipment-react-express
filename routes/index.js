@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var data = require('../generated_data.json');
+var _ = require('lodash');
 /* GET home page. */
 
 router.get('/robots', function(req, res, next) {
@@ -15,10 +16,18 @@ router.get('/robots', function(req, res, next) {
 // robot.
 
 router.post('/robots/:id/extinguish', function(req, res, next) {
-  let data = req.body;
   let id = req.params.id
-  res.json({ data, id});
-  // res.render('index', { title: 'Express' });
+  try{
+    for(let i = 0; i < data.length; i++){
+      if(id === data[i].id && data[i].configuration.hasSentience ===  true && data[i].statuses.includes("on fire")){
+        data.splice(i, 1)
+        break;
+      }
+    }
+  } catch(e) {
+    res.json({ result: "bad" });
+  }
+  res.json({ result: "ok" });
   
 });
 
