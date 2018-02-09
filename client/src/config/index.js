@@ -1,4 +1,8 @@
-import connection from './connection';
+// App configurations
 
-export const connection = connection;
+
+export const connection = {
+  url: "http://localhost",
+  port: 3001
+};
 
