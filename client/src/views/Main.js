@@ -3,25 +3,51 @@
  */
 
 import React, { Component } from 'react';
-import { get, post } from '../util/http';
+import { connect } from 'react-redux';
+import { get } from '../util/http';
 
 class Main extends Component {
+  state = {
+    loading: true
+  }
   componentDidMount = () => {
     // get()
+    console.log(this.props)
     this.intialize();
+  }
+
+  componentWillReceiveProps = (nextProps) => {
+    console.log(nextProps)
   }
 
   // initialize QA Process 
   intialize = async () => {
-    let data = await get("robots").then(result => result);
+    let data = await get("robots").then(result => result.data).catch((error) => { console.log(error); return undefined });
+    this.setState({ loading: false });
+    if(data !== undefined){
+      console.log(data)
+    } else {
+      console.log("failed")
+    }
   }
   render() {
     return (
       <div>
-        
+        {
+          this.state.loading ? 
+          "Loading"
+          :
+          "Main.js"
+        }
       </div>
     );
   }
 }
 
-export default Main;
+const mapStateToProps = state => {
+  return {
+    state: state
+  }
+}
+
+export default connect(mapStateToProps)(Main);
