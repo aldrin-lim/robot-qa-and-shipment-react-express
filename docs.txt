@@ -1,0 +1,10 @@
+Requirements 
+
+
+After QA
+
+1. Display two list "Factory Seconds" and "Passed QA"
+2. Display columns id, name, colour, other configuration and add to shipment button
+3. When add to shipment button is clicked, item should be move to ready to ship list
+4. On Ready to Ship add remove from shipment. when clicked, return to its previous state
+5. Add Send Shipment Button on Ready to Ship

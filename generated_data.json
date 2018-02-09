@@ -1,0 +1,802 @@
+[
+      {
+      "id": "13246124",
+      "name": "court",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 8,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "on fire",
+         "rusty",
+         "on fire"
+      ]
+   },
+      {
+      "id": "69803558",
+      "name": "lyon",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 3,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "paint scratched”",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "09983821",
+      "name": "davlin",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 1,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "paint scratched”",
+         "on fire"
+      ]
+   },
+      {
+      "id": "05978817",
+      "name": "hayes",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 7,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "on fire",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "12778126",
+      "name": "kenwood",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 12,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "on fire",
+         "loose screws",
+         "rusty"
+      ]
+   },
+      {
+      "id": "16279569",
+      "name": "lake calumet harbor ent",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 2,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "loose screws",
+         "loose screws",
+         "rusty"
+      ]
+   },
+      {
+      "id": "40402624",
+      "name": "larned",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 13,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "loose screws",
+         "rusty"
+      ]
+   },
+      {
+      "id": "68511739",
+      "name": "hampden",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 13,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "rusty",
+         "paint scratched”",
+         "rusty"
+      ]
+   },
+      {
+      "id": "10955263",
+      "name": "kennedy randolph st",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 6,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "rusty",
+         "on fire",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "35726427",
+      "name": "136th",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 7,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "on fire"
+      ]
+   },
+      {
+      "id": "36777843",
+      "name": "emmett",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 11,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "rusty",
+         "rusty",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "64722472",
+      "name": "drake",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 4,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "loose screws",
+         "rusty"
+      ]
+   },
+      {
+      "id": "21475304",
+      "name": "mildred",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 14,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "rusty",
+         "rusty",
+         "rusty"
+      ]
+   },
+      {
+      "id": "18809253",
+      "name": "saginaw",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 13,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "26805797",
+      "name": "columbus ramp",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 2,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "on fire",
+         "paint scratched”",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "46904179",
+      "name": "evans",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 6,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "rusty",
+         "paint scratched”",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "79991865",
+      "name": "miltimore",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 12,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "loose screws",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "56701244",
+      "name": "west drive of oakley",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 7,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "on fire"
+      ]
+   },
+      {
+      "id": "66859584",
+      "name": "edbrooke",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 4,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "on fire",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "75557688",
+      "name": "taft",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 10,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "on fire",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "65778748",
+      "name": "irving park",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 2,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "loose screws",
+         "rusty"
+      ]
+   },
+      {
+      "id": "84837225",
+      "name": "i190",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 15,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "loose screws",
+         "on fire"
+      ]
+   },
+      {
+      "id": "43423766",
+      "name": "richmond",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 11,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "paint scratched”",
+         "rusty"
+      ]
+   },
+      {
+      "id": "79981888",
+      "name": "marine",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 7,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "rusty",
+         "on fire",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "51409472",
+      "name": "wacker lower",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 5,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "on fire",
+         "on fire",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "51188234",
+      "name": "72nd",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 9,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "rusty",
+         "rusty"
+      ]
+   },
+      {
+      "id": "56354684",
+      "name": "110th",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 11,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "rusty",
+         "paint scratched”",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "87413110",
+      "name": "dan ryan 83rd st",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 10,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "loose screws",
+         "loose screws",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "77306918",
+      "name": "north shore",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 6,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "loose screws",
+         "on fire"
+      ]
+   },
+      {
+      "id": "31639283",
+      "name": "dan ryan ib eisenhower",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 7,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "on fire",
+         "paint scratched”",
+         "on fire"
+      ]
+   },
+      {
+      "id": "79298742",
+      "name": "69th",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 13,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "on fire",
+         "rusty"
+      ]
+   },
+      {
+      "id": "89699458",
+      "name": "raven",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 13,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "25761131",
+      "name": "60th",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 14,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "rusty",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "51284776",
+      "name": "avenue c",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 4,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "on fire",
+         "paint scratched”",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "05368508",
+      "name": "martin",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 4,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "36773218",
+      "name": "indian",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 14,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "paint scratched”",
+         "on fire"
+      ]
+   },
+      {
+      "id": "82693029",
+      "name": "lynch",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 2,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "rusty",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "64706343",
+      "name": "13th",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 9,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "on fire",
+         "paint scratched”",
+         "rusty"
+      ]
+   },
+      {
+      "id": "58956571",
+      "name": "newark",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 11,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "loose screws",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "63040745",
+      "name": "dan ryan 31st st",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 2,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "paint scratched”",
+         "rusty",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "00296869",
+      "name": "sayre",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 13,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "on fire",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "62137458",
+      "name": "latham",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 12,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "on fire",
+         "loose screws",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "52956648",
+      "name": "stevenson expy",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 10,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "loose screws",
+         "paint scratched”",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "40502887",
+      "name": "edgebrook",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": false,
+         "numberOfRotors": 10,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "on fire",
+         "on fire",
+         "rusty"
+      ]
+   },
+      {
+      "id": "74447018",
+      "name": "holbrook",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 8,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "loose screws",
+         "paint scratched”",
+         "rusty"
+      ]
+   },
+      {
+      "id": "20496721",
+      "name": "medina",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": true,
+         "hasTracks": true,
+         "numberOfRotors": 1,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "loose screws",
+         "loose screws",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "16233895",
+      "name": "old higgins",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 6,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "loose screws",
+         "paint scratched”",
+         "rusty"
+      ]
+   },
+      {
+      "id": "23894175",
+      "name": "106th",
+      "configuration":       {
+         "hasSentience": false,
+         "hasWheels": false,
+         "hasTracks": true,
+         "numberOfRotors": 12,
+         "Colour": "Blue"
+      },
+      "statuses":       [
+         "rusty",
+         "paint scratched”",
+         "paint scratched”"
+      ]
+   },
+      {
+      "id": "63048464",
+      "name": "harrison",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 4,
+         "Colour": "Red"
+      },
+      "statuses":       [
+         "rusty",
+         "rusty",
+         "loose screws"
+      ]
+   },
+      {
+      "id": "47638983",
+      "name": "n branch canal",
+      "configuration":       {
+         "hasSentience": true,
+         "hasWheels": false,
+         "hasTracks": false,
+         "numberOfRotors": 10,
+         "Colour": "Green"
+      },
+      "statuses":       [
+         "rusty",
+         "on fire",
+         "paint scratched”"
+      ]
+   }
+]
