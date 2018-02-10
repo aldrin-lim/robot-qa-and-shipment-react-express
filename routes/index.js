@@ -28,7 +28,24 @@ router.post('/robots/:id/extinguish', function(req, res, next) {
     res.json({ result: "bad" });
   }
   res.json({ result: "ok" });
-  
+});
+
+
+// 2. Any robot meeting any of the following conditions should be recycled:
+//     a. Has fewer than 3 or greater than 8 rotors
+//     b. Has any number of rotors and blue in colour
+//     c. Has both wheels and tracks
+//     d. Has wheels and is rusty
+//     e. Is sentient an
+router.post('/robots/recycle', function(req, res, next) {
+  let id = req.params.id;
+  let recylables = req.body.data;
+  try {
+    data = data.filter(item => recylables.includes(item.id));
+  } catch (e) {
+    res.json({ result: "bad" });
+  }
+  res.json({ result: "ok" });
 });
 
 
