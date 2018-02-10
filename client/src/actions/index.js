@@ -19,6 +19,20 @@ export const addToPassedQA = (data) => {
   };
 }
 
+export const moveToShipment = id => {
+  return {
+    type: 'MOVE_TO_SHIPMENT',
+    payload: { id }
+  }
+}
+
+export const removeFromShipment = (id) => {
+  return {
+    type: 'REMOVE_FROM_SHIPMENT',
+    payload: { id }
+  };
+}
+
 export const removeForQA = (data) => {
   return {
     type: 'REMOVE_FOR_QA'

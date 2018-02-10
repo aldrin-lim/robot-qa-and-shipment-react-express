@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { get, post } from '../util/http';
-import { fetchToBeQA, addToFactorySeconds, removeForQA , addToPassedQA } from './../actions';
+import { fetchToBeQA, addToFactorySeconds, removeForQA , addToPassedQA, moveToShipment, removeFromShipment } from './../actions';
 import _ from 'lodash';
 class Main extends Component {
   state = {
@@ -20,6 +20,7 @@ class Main extends Component {
   }
 
   componentWillReceiveProps = (nextProps) => {
+    console.log(nextProps.reduxState)
     if(nextProps.reduxState.to_be_qa.length > 0) this.extinguish(nextProps.reduxState.to_be_qa)
   }
 
@@ -112,6 +113,16 @@ class Main extends Component {
   pushSegratedToReduxState = () => {
     this.props.addToFactorySeconds(this.state.factorySecond);
     this.props.addToPassedQA(this.state.QAPassed);
+    this.setState({ loading: false })
+    // 18809253"
+  }
+
+  test = () => {
+    this.props.moveToShipment("18809253")
+  }
+
+  test1 = () => {
+    this.props.removeFromShipment("18809253")
   }
 
   render() {
@@ -121,7 +132,10 @@ class Main extends Component {
           this.state.loading ? 
           "Loading"
           :
-          "Main.js"
+          <div>
+              <button onClick={this.test}> Click</button>
+            <button onClick={this.test1}> Return</button>
+          </div>
         }
       </div>
     );
@@ -139,7 +153,9 @@ const mapDispatchToProps = dispatch => {
     fetchToBeQA: data => dispatch(fetchToBeQA(data)),
     addToFactorySeconds: data => dispatch(addToFactorySeconds(data)),
     addToPassedQA: data => dispatch(addToPassedQA(data)),
-    removeForQA: () => dispatch(removeForQA())
+    removeForQA: () => dispatch(removeForQA()),
+    moveToShipment: id => dispatch(moveToShipment(id)),
+    removeFromShipment: id => dispatch(removeFromShipment(id))
   }
 }
 
